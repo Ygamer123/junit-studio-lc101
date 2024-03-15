@@ -7,13 +7,14 @@ import static org.junit.Assert.*;
 
 public class BalancedBracketsTest {
 
+
     @Test
     public  void emptyTest() {
         assertEquals(true, true);
     }
 
 
-    //Brackets in correct order
+    //Brackets in correct order.
     @Test
     public void onlyBracketsReturnsTrue() {
         assertTrue(BalancedBrackets.hasBalancedBrackets("[]"));
